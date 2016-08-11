@@ -21,6 +21,7 @@ class ViewController: UIViewController, UIScrollViewDelegate, UIImagePickerContr
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
+        
     }
     
     override func viewWillAppear(animated: Bool) {

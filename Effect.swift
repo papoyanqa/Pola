@@ -47,6 +47,7 @@ class Effect: UIViewController, UIScrollViewDelegate {
     func viewForZoomingInScrollView(scrollView: UIScrollView) -> UIView? {
         return pickedImage
     }
+    
 }
 
 
