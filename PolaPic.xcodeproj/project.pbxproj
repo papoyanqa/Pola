@@ -16,7 +16,7 @@
 		57CA47611D574147000C4C19 /* polpic in Resources */ = {isa = PBXBuildFile; fileRef = 57CA47601D574147000C4C19 /* polpic */; };
 		57CA47651D574FE8000C4C19 /* firstpage.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CA47641D574FE8000C4C19 /* firstpage.png */; };
 		57CA47671D57500B000C4C19 /* bacground.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CA47661D57500B000C4C19 /* bacground.png */; };
-		57CA476B1D575BA2000C4C19 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 57CA476A1D575BA2000C4C19 /* AppIcon.appiconset */; };
+		57CA476B1D575BA2000C4C19 /* logo in Resources */ = {isa = PBXBuildFile; fileRef = 57CA476A1D575BA2000C4C19 /* logo */; };
 		57CA476D1D575D3E000C4C19 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CA476C1D575D3E000C4C19 /* launch.png */; };
 		57CA47711D5793DD000C4C19 /* logoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CA47701D5793DD000C4C19 /* logoWhite.png */; };
 		57CA47731D5795B6000C4C19 /* buttonBack-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CA47721D5795B6000C4C19 /* buttonBack-2.png */; };
@@ -45,12 +45,12 @@
 		57CA47531D573D0E000C4C19 /* PolaPicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolaPicUITests.swift; sourceTree = "<group>"; };
 		57CA47551D573D0E000C4C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57CA47601D574147000C4C19 /* polpic */ = {isa = PBXFileReference; lastKnownFileType = folder; name = polpic; path = ../../../Downloads/polpic; sourceTree = "<group>"; };
-		57CA47641D574FE8000C4C19 /* firstpage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = firstpage.png; path = "../../App design/PolaPic/firstpage.png"; sourceTree = "<group>"; };
-		57CA47661D57500B000C4C19 /* bacground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bacground.png; path = "../../App design/PolaPic/logo/bacground.png"; sourceTree = "<group>"; };
-		57CA476A1D575BA2000C4C19 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = "../../App design/PolaPic/logo/Logo images/main/ios/AppIcon.appiconset"; sourceTree = "<group>"; };
-		57CA476C1D575D3E000C4C19 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch.png; path = "../../App design/PolaPic/launch.png"; sourceTree = "<group>"; };
-		57CA47701D5793DD000C4C19 /* logoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoWhite.png; path = "../../App design/PolaPic/logo/logoWhite.png"; sourceTree = "<group>"; };
-		57CA47721D5795B6000C4C19 /* buttonBack-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "buttonBack-2.png"; path = "../../App design/PolaPic/logo/assets/buttonBack-2.png"; sourceTree = "<group>"; };
+		57CA47641D574FE8000C4C19 /* firstpage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = firstpage.png; path = ../PolaPicAssets/firstpage.png; sourceTree = "<group>"; };
+		57CA47661D57500B000C4C19 /* bacground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bacground.png; path = ../PolaPicAssets/logo/bacground.png; sourceTree = "<group>"; };
+		57CA476A1D575BA2000C4C19 /* logo */ = {isa = PBXFileReference; lastKnownFileType = folder; name = logo; path = ../PolaPicAssets/logo; sourceTree = "<group>"; };
+		57CA476C1D575D3E000C4C19 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch.png; path = ../PolaPicAssets/launch.png; sourceTree = "<group>"; };
+		57CA47701D5793DD000C4C19 /* logoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoWhite.png; path = ../PolaPicAssets/logo/logoWhite.png; sourceTree = "<group>"; };
+		57CA47721D5795B6000C4C19 /* buttonBack-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "buttonBack-2.png"; path = "../PolaPicAssets/logo/assets/buttonBack-2.png"; sourceTree = "<group>"; };
 		57CA47741D579D96000C4C19 /* Effect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Effect.swift; path = ../Effect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +105,7 @@
 				57CA47471D573D0E000C4C19 /* LaunchScreen.storyboard */,
 				57CA474A1D573D0E000C4C19 /* Info.plist */,
 				57CA47661D57500B000C4C19 /* bacground.png */,
-				57CA476A1D575BA2000C4C19 /* AppIcon.appiconset */,
+				57CA476A1D575BA2000C4C19 /* logo */,
 			);
 			path = PolaPic;
 			sourceTree = "<group>";
@@ -209,7 +209,7 @@
 				57CA47491D573D0E000C4C19 /* LaunchScreen.storyboard in Resources */,
 				57CA47461D573D0E000C4C19 /* Assets.xcassets in Resources */,
 				57CA47441D573D0E000C4C19 /* Main.storyboard in Resources */,
-				57CA476B1D575BA2000C4C19 /* AppIcon.appiconset in Resources */,
+				57CA476B1D575BA2000C4C19 /* logo in Resources */,
 				57CA47731D5795B6000C4C19 /* buttonBack-2.png in Resources */,
 				57CA47671D57500B000C4C19 /* bacground.png in Resources */,
 			);
