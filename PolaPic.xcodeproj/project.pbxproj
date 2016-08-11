@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57CA473F1D573D0E000C4C19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA473E1D573D0E000C4C19 /* AppDelegate.swift */; };
+		57CA47411D573D0E000C4C19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA47401D573D0E000C4C19 /* ViewController.swift */; };
+		57CA47441D573D0E000C4C19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CA47421D573D0E000C4C19 /* Main.storyboard */; };
+		57CA47461D573D0E000C4C19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CA47451D573D0E000C4C19 /* Assets.xcassets */; };
+		57CA47491D573D0E000C4C19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CA47471D573D0E000C4C19 /* LaunchScreen.storyboard */; };
+		57CA47541D573D0E000C4C19 /* PolaPicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA47531D573D0E000C4C19 /* PolaPicUITests.swift */; };
+		57CA47611D574147000C4C19 /* polpic in Resources */ = {isa = PBXBuildFile; fileRef = 57CA47601D574147000C4C19 /* polpic */; };
+		57CA47651D574FE8000C4C19 /* firstpage.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CA47641D574FE8000C4C19 /* firstpage.png */; };
+		57CA47671D57500B000C4C19 /* bacground.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CA47661D57500B000C4C19 /* bacground.png */; };
+		57CA476B1D575BA2000C4C19 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 57CA476A1D575BA2000C4C19 /* AppIcon.appiconset */; };
+		57CA476D1D575D3E000C4C19 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CA476C1D575D3E000C4C19 /* launch.png */; };
+		57CA47711D5793DD000C4C19 /* logoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CA47701D5793DD000C4C19 /* logoWhite.png */; };
+		57CA47731D5795B6000C4C19 /* buttonBack-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CA47721D5795B6000C4C19 /* buttonBack-2.png */; };
+		57CA47751D579D96000C4C19 /* Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA47741D579D96000C4C19 /* Effect.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57CA47501D573D0E000C4C19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57CA47331D573D0E000C4C19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57CA473A1D573D0E000C4C19;
+			remoteInfo = PolaPic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57CA473B1D573D0E000C4C19 /* PolaPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolaPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CA473E1D573D0E000C4C19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57CA47401D573D0E000C4C19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57CA47431D573D0E000C4C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57CA47451D573D0E000C4C19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57CA47481D573D0E000C4C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57CA474A1D573D0E000C4C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CA474F1D573D0E000C4C19 /* PolaPicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolaPicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CA47531D573D0E000C4C19 /* PolaPicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolaPicUITests.swift; sourceTree = "<group>"; };
+		57CA47551D573D0E000C4C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CA47601D574147000C4C19 /* polpic */ = {isa = PBXFileReference; lastKnownFileType = folder; name = polpic; path = ../../../Downloads/polpic; sourceTree = "<group>"; };
+		57CA47641D574FE8000C4C19 /* firstpage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = firstpage.png; path = "../../App design/PolaPic/firstpage.png"; sourceTree = "<group>"; };
+		57CA47661D57500B000C4C19 /* bacground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bacground.png; path = "../../App design/PolaPic/logo/bacground.png"; sourceTree = "<group>"; };
+		57CA476A1D575BA2000C4C19 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = "../../App design/PolaPic/logo/Logo images/main/ios/AppIcon.appiconset"; sourceTree = "<group>"; };
+		57CA476C1D575D3E000C4C19 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch.png; path = "../../App design/PolaPic/launch.png"; sourceTree = "<group>"; };
+		57CA47701D5793DD000C4C19 /* logoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoWhite.png; path = "../../App design/PolaPic/logo/logoWhite.png"; sourceTree = "<group>"; };
+		57CA47721D5795B6000C4C19 /* buttonBack-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "buttonBack-2.png"; path = "../../App design/PolaPic/logo/assets/buttonBack-2.png"; sourceTree = "<group>"; };
+		57CA47741D579D96000C4C19 /* Effect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Effect.swift; path = ../Effect.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57CA47381D573D0E000C4C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CA474C1D573D0E000C4C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57CA47321D573D0E000C4C19 = {
+			isa = PBXGroup;
+			children = (
+				57CA473D1D573D0E000C4C19 /* PolaPic */,
+				57CA47521D573D0E000C4C19 /* PolaPicUITests */,
+				57CA473C1D573D0E000C4C19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57CA473C1D573D0E000C4C19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57CA473B1D573D0E000C4C19 /* PolaPic.app */,
+				57CA474F1D573D0E000C4C19 /* PolaPicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57CA473D1D573D0E000C4C19 /* PolaPic */ = {
+			isa = PBXGroup;
+			children = (
+				57CA47641D574FE8000C4C19 /* firstpage.png */,
+				57CA47721D5795B6000C4C19 /* buttonBack-2.png */,
+				57CA47701D5793DD000C4C19 /* logoWhite.png */,
+				57CA476C1D575D3E000C4C19 /* launch.png */,
+				57CA473E1D573D0E000C4C19 /* AppDelegate.swift */,
+				57CA47401D573D0E000C4C19 /* ViewController.swift */,
+				57CA47741D579D96000C4C19 /* Effect.swift */,
+				57CA47421D573D0E000C4C19 /* Main.storyboard */,
+				57CA47451D573D0E000C4C19 /* Assets.xcassets */,
+				57CA47471D573D0E000C4C19 /* LaunchScreen.storyboard */,
+				57CA474A1D573D0E000C4C19 /* Info.plist */,
+				57CA47661D57500B000C4C19 /* bacground.png */,
+				57CA476A1D575BA2000C4C19 /* AppIcon.appiconset */,
+			);
+			path = PolaPic;
+			sourceTree = "<group>";
+		};
+		57CA47521D573D0E000C4C19 /* PolaPicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57CA47601D574147000C4C19 /* polpic */,
+				57CA47531D573D0E000C4C19 /* PolaPicUITests.swift */,
+				57CA47551D573D0E000C4C19 /* Info.plist */,
+			);
+			path = PolaPicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57CA473A1D573D0E000C4C19 /* PolaPic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CA47581D573D0E000C4C19 /* Build configuration list for PBXNativeTarget "PolaPic" */;
+			buildPhases = (
+				57CA47371D573D0E000C4C19 /* Sources */,
+				57CA47381D573D0E000C4C19 /* Frameworks */,
+				57CA47391D573D0E000C4C19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolaPic;
+			productName = PolaPic;
+			productReference = 57CA473B1D573D0E000C4C19 /* PolaPic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57CA474E1D573D0E000C4C19 /* PolaPicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CA475B1D573D0E000C4C19 /* Build configuration list for PBXNativeTarget "PolaPicUITests" */;
+			buildPhases = (
+				57CA474B1D573D0E000C4C19 /* Sources */,
+				57CA474C1D573D0E000C4C19 /* Frameworks */,
+				57CA474D1D573D0E000C4C19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57CA47511D573D0E000C4C19 /* PBXTargetDependency */,
+			);
+			name = PolaPicUITests;
+			productName = PolaPicUITests;
+			productReference = 57CA474F1D573D0E000C4C19 /* PolaPicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57CA47331D573D0E000C4C19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Gagik Papoyan";
+				TargetAttributes = {
+					57CA473A1D573D0E000C4C19 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 88L62R365Q;
+					};
+					57CA474E1D573D0E000C4C19 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 88L62R365Q;
+						TestTargetID = 57CA473A1D573D0E000C4C19;
+					};
+				};
+			};
+			buildConfigurationList = 57CA47361D573D0E000C4C19 /* Build configuration list for PBXProject "PolaPic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57CA47321D573D0E000C4C19;
+			productRefGroup = 57CA473C1D573D0E000C4C19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57CA473A1D573D0E000C4C19 /* PolaPic */,
+				57CA474E1D573D0E000C4C19 /* PolaPicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57CA47391D573D0E000C4C19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CA476D1D575D3E000C4C19 /* launch.png in Resources */,
+				57CA47651D574FE8000C4C19 /* firstpage.png in Resources */,
+				57CA47711D5793DD000C4C19 /* logoWhite.png in Resources */,
+				57CA47491D573D0E000C4C19 /* LaunchScreen.storyboard in Resources */,
+				57CA47461D573D0E000C4C19 /* Assets.xcassets in Resources */,
+				57CA47441D573D0E000C4C19 /* Main.storyboard in Resources */,
+				57CA476B1D575BA2000C4C19 /* AppIcon.appiconset in Resources */,
+				57CA47731D5795B6000C4C19 /* buttonBack-2.png in Resources */,
+				57CA47671D57500B000C4C19 /* bacground.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CA474D1D573D0E000C4C19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CA47611D574147000C4C19 /* polpic in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57CA47371D573D0E000C4C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CA47751D579D96000C4C19 /* Effect.swift in Sources */,
+				57CA47411D573D0E000C4C19 /* ViewController.swift in Sources */,
+				57CA473F1D573D0E000C4C19 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CA474B1D573D0E000C4C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CA47541D573D0E000C4C19 /* PolaPicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57CA47511D573D0E000C4C19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57CA473A1D573D0E000C4C19 /* PolaPic */;
+			targetProxy = 57CA47501D573D0E000C4C19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57CA47421D573D0E000C4C19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CA47431D573D0E000C4C19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57CA47471D573D0E000C4C19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CA47481D573D0E000C4C19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57CA47561D573D0E000C4C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57CA47571D573D0E000C4C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57CA47591D573D0E000C4C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PolaPic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = picsart.PolaPic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57CA475A1D573D0E000C4C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PolaPic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = picsart.PolaPic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57CA475C1D573D0E000C4C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PolaPicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = picsart.PolaPicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PolaPic;
+			};
+			name = Debug;
+		};
+		57CA475D1D573D0E000C4C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PolaPicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = picsart.PolaPicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PolaPic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57CA47361D573D0E000C4C19 /* Build configuration list for PBXProject "PolaPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CA47561D573D0E000C4C19 /* Debug */,
+				57CA47571D573D0E000C4C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CA47581D573D0E000C4C19 /* Build configuration list for PBXNativeTarget "PolaPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CA47591D573D0E000C4C19 /* Debug */,
+				57CA475A1D573D0E000C4C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CA475B1D573D0E000C4C19 /* Build configuration list for PBXNativeTarget "PolaPicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CA475C1D573D0E000C4C19 /* Debug */,
+				57CA475D1D573D0E000C4C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57CA47331D573D0E000C4C19 /* Project object */;
+}
