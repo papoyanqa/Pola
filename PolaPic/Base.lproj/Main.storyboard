@@ -110,22 +110,11 @@
                                     <constraint firstAttribute="width" constant="600" id="cgX-cR-lUG"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMd-en-mtG">
-                                <rect key="frame" x="12" y="510" width="46" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="TP7-GR-y5o"/>
-                                    <constraint firstAttribute="width" constant="46" id="cB6-Kq-okY"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="effectBtn:" destination="Eew-0g-h6G" eventType="touchUpInside" id="Jhm-UV-0Ie"/>
-                                </connections>
-                            </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MgN-E9-8yI">
-                                <rect key="frame" x="0.0" y="64" width="600" height="453"/>
+                            <scrollView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MgN-E9-8yI">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9zy-Pd-enp">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="453"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="468" id="8n5-Eu-Edf"/>
                                         </constraints>
@@ -142,26 +131,51 @@
                                     <constraint firstAttribute="bottom" secondItem="9zy-Pd-enp" secondAttribute="bottom" id="Xyx-df-tpe"/>
                                     <constraint firstAttribute="width" constant="600" id="b1n-yT-VUh"/>
                                     <constraint firstItem="9zy-Pd-enp" firstAttribute="leading" secondItem="MgN-E9-8yI" secondAttribute="leading" id="dvs-w8-s7u"/>
-                                    <constraint firstAttribute="height" constant="453" id="ged-ic-bbP"/>
+                                    <constraint firstAttribute="height" constant="536" id="ged-ic-bbP"/>
                                     <constraint firstItem="9zy-Pd-enp" firstAttribute="centerY" secondItem="MgN-E9-8yI" secondAttribute="centerY" id="nqA-1s-8L4"/>
                                     <constraint firstItem="9zy-Pd-enp" firstAttribute="top" secondItem="MgN-E9-8yI" secondAttribute="top" id="ojA-Up-XlD"/>
                                 </constraints>
                             </scrollView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Xaz-15-xnx">
+                                <rect key="frame" x="0.0" y="530" width="600" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="6Gx-Zw-Giy"/>
+                                    <constraint firstAttribute="width" constant="600" id="Jli-U7-nbB"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fYW-QI-eVQ">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="XwU-jc-52e">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="MgN-E9-8yI" firstAttribute="leading" secondItem="xeH-zj-ICu" secondAttribute="leading" id="2eq-vh-Eax"/>
-                            <constraint firstAttribute="trailing" secondItem="eMd-en-mtG" secondAttribute="trailing" constant="542" id="BGy-H1-gVW"/>
+                            <constraint firstItem="Xaz-15-xnx" firstAttribute="centerX" secondItem="xeH-zj-ICu" secondAttribute="centerX" id="BfZ-dC-WeG"/>
+                            <constraint firstItem="Xaz-15-xnx" firstAttribute="leading" secondItem="xeH-zj-ICu" secondAttribute="leading" id="IeV-GB-Gn5"/>
+                            <constraint firstAttribute="trailing" secondItem="Xaz-15-xnx" secondAttribute="trailing" id="LgW-rs-e7M"/>
                             <constraint firstItem="g0X-e3-zhy" firstAttribute="leading" secondItem="xeH-zj-ICu" secondAttribute="leading" id="OAH-1S-Otd"/>
                             <constraint firstItem="g0X-e3-zhy" firstAttribute="centerX" secondItem="xeH-zj-ICu" secondAttribute="centerX" id="V4J-tH-xWN"/>
                             <constraint firstItem="MgN-E9-8yI" firstAttribute="top" secondItem="oaj-Ux-8x5" secondAttribute="bottom" id="Y3l-gK-gFo"/>
                             <constraint firstAttribute="trailing" secondItem="MgN-E9-8yI" secondAttribute="trailing" id="bck-xO-UeN"/>
                             <constraint firstItem="g0X-e3-zhy" firstAttribute="centerY" secondItem="xeH-zj-ICu" secondAttribute="centerY" id="cU1-I8-CPd"/>
                             <constraint firstItem="mSL-nd-dBt" firstAttribute="top" secondItem="g0X-e3-zhy" secondAttribute="bottom" id="ddh-UI-6iN"/>
-                            <constraint firstItem="eMd-en-mtG" firstAttribute="leading" secondItem="xeH-zj-ICu" secondAttribute="leading" constant="12" id="eP1-XY-7Ix"/>
                             <constraint firstItem="g0X-e3-zhy" firstAttribute="top" secondItem="xeH-zj-ICu" secondAttribute="top" id="f8J-RQ-ZeB"/>
-                            <constraint firstItem="mSL-nd-dBt" firstAttribute="top" secondItem="eMd-en-mtG" secondAttribute="bottom" constant="60" id="oeL-J1-aSK"/>
                             <constraint firstAttribute="trailing" secondItem="g0X-e3-zhy" secondAttribute="trailing" id="r4w-qb-eKn"/>
+                            <constraint firstItem="mSL-nd-dBt" firstAttribute="top" secondItem="Xaz-15-xnx" secondAttribute="bottom" id="tZU-3t-YHb"/>
                             <constraint firstItem="MgN-E9-8yI" firstAttribute="centerX" secondItem="xeH-zj-ICu" secondAttribute="centerX" id="wRG-53-ZAo"/>
                         </constraints>
                     </view>

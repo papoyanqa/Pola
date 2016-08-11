@@ -23,10 +23,11 @@ class Effect: UIViewController, UIScrollViewDelegate {
     let context = CIContext(options: nil)
     
     override func viewDidLoad() {
+        pickedImage.frame = CGRect(origin: CGPointZero, size: editImage!.size)
         pickedImage.image = editImage
         self.scrollview.minimumZoomScale = 1.0
         self.scrollview.maximumZoomScale = 7.0
-        
+        scrollview.delegate = self
     }
     
     @IBAction func effectBtn(sender: AnyObject) {
@@ -44,7 +45,7 @@ class Effect: UIViewController, UIScrollViewDelegate {
     internal var editImage: UIImage!
 
     func viewForZoomingInScrollView(scrollView: UIScrollView) -> UIView? {
-        return self.pickedImage
+        return pickedImage
     }
 }
 
