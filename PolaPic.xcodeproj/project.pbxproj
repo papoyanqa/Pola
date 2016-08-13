@@ -45,12 +45,12 @@
 		57CA47531D573D0E000C4C19 /* PolaPicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolaPicUITests.swift; sourceTree = "<group>"; };
 		57CA47551D573D0E000C4C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57CA47601D574147000C4C19 /* polpic */ = {isa = PBXFileReference; lastKnownFileType = folder; name = polpic; path = ../../../Downloads/polpic; sourceTree = "<group>"; };
-		57CA47641D574FE8000C4C19 /* firstpage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = firstpage.png; path = ../PolaPicAssets/firstpage.png; sourceTree = "<group>"; };
+		57CA47641D574FE8000C4C19 /* firstpage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = firstpage.png; path = PolaPicAssets/firstpage.png; sourceTree = SOURCE_ROOT; };
 		57CA47661D57500B000C4C19 /* bacground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bacground.png; path = ../PolaPicAssets/logo/bacground.png; sourceTree = "<group>"; };
 		57CA476A1D575BA2000C4C19 /* logo */ = {isa = PBXFileReference; lastKnownFileType = folder; name = logo; path = ../PolaPicAssets/logo; sourceTree = "<group>"; };
-		57CA476C1D575D3E000C4C19 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch.png; path = ../PolaPicAssets/launch.png; sourceTree = "<group>"; };
-		57CA47701D5793DD000C4C19 /* logoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoWhite.png; path = ../PolaPicAssets/logo/logoWhite.png; sourceTree = "<group>"; };
-		57CA47721D5795B6000C4C19 /* buttonBack-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "buttonBack-2.png"; path = "../PolaPicAssets/logo/assets/buttonBack-2.png"; sourceTree = "<group>"; };
+		57CA476C1D575D3E000C4C19 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch.png; path = PolaPicAssets/launch.png; sourceTree = SOURCE_ROOT; };
+		57CA47701D5793DD000C4C19 /* logoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoWhite.png; path = PolaPicAssets/logo/logoWhite.png; sourceTree = SOURCE_ROOT; };
+		57CA47721D5795B6000C4C19 /* buttonBack-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "buttonBack-2.png"; path = "PolaPicAssets/logo/assets/buttonBack-2.png"; sourceTree = SOURCE_ROOT; };
 		57CA47741D579D96000C4C19 /* Effect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Effect.swift; path = ../Effect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +72,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		574CF9DA1D5E6D77004B1D92 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				57CA47641D574FE8000C4C19 /* firstpage.png */,
+				57CA47701D5793DD000C4C19 /* logoWhite.png */,
+				57CA476C1D575D3E000C4C19 /* launch.png */,
+				57CA47721D5795B6000C4C19 /* buttonBack-2.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		57CA47321D573D0E000C4C19 = {
 			isa = PBXGroup;
 			children = (
@@ -93,14 +104,11 @@
 		57CA473D1D573D0E000C4C19 /* PolaPic */ = {
 			isa = PBXGroup;
 			children = (
-				57CA47641D574FE8000C4C19 /* firstpage.png */,
-				57CA47721D5795B6000C4C19 /* buttonBack-2.png */,
-				57CA47701D5793DD000C4C19 /* logoWhite.png */,
-				57CA476C1D575D3E000C4C19 /* launch.png */,
+				574CF9DA1D5E6D77004B1D92 /* images */,
 				57CA473E1D573D0E000C4C19 /* AppDelegate.swift */,
+				57CA47421D573D0E000C4C19 /* Main.storyboard */,
 				57CA47401D573D0E000C4C19 /* ViewController.swift */,
 				57CA47741D579D96000C4C19 /* Effect.swift */,
-				57CA47421D573D0E000C4C19 /* Main.storyboard */,
 				57CA47451D573D0E000C4C19 /* Assets.xcassets */,
 				57CA47471D573D0E000C4C19 /* LaunchScreen.storyboard */,
 				57CA474A1D573D0E000C4C19 /* Info.plist */,

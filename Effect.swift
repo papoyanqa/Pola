@@ -7,19 +7,15 @@
 //
 
 import UIKit
-import Darwin
 
-
-
-
-
-
-class Effect: UIViewController, UIScrollViewDelegate {
+class Effect: UIViewController, UIScrollViewDelegate,UICollectionViewDelegateFlowLayout {
     @IBOutlet weak var scrollview: UIScrollView!
     @IBOutlet weak var pickedImage: UIImageView!
+   
     
     
-    
+    let filtersCount = 10
+    var tableData: [String] = ["None", "Mono", "Chrome", "Fade", "Instant", "Noir", "Process", "Sepia", "Transfer", "Vignette"]
     let context = CIContext(options: nil)
     
     override func viewDidLoad() {
@@ -28,7 +24,7 @@ class Effect: UIViewController, UIScrollViewDelegate {
         self.scrollview.minimumZoomScale = 1.0
         self.scrollview.maximumZoomScale = 7.0
         scrollview.delegate = self
-    }
+            }
     
     @IBAction func effectBtn(sender: AnyObject) {
         // Create image to filter
@@ -48,6 +44,7 @@ class Effect: UIViewController, UIScrollViewDelegate {
         return pickedImage
     }
     
+
 }
 
 
