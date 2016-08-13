@@ -94,7 +94,7 @@
         <!--Effect-->
         <scene sceneID="Shi-lX-eNU">
             <objects>
-                <viewController id="Eew-0g-h6G" customClass="Effect" customModule="PolaPic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Eew-0g-h6G" customClass="Effect" customModule="PolaPic" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oaj-Ux-8x5"/>
                         <viewControllerLayoutGuide type="bottom" id="mSL-nd-dBt"/>
@@ -110,7 +110,7 @@
                                     <constraint firstAttribute="width" constant="600" id="cgX-cR-lUG"/>
                                 </constraints>
                             </imageView>
-                            <scrollView clipsSubviews="YES" contentMode="scaleAspectFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MgN-E9-8yI">
+                            <scrollView clipsSubviews="YES" contentMode="scaleAspectFill" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MgN-E9-8yI">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9zy-Pd-enp">
@@ -159,13 +159,8 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n7H-a0-9ew" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="fz8-hV-kza">
-                    <connections>
-                        <action selector="noneEffect:" destination="Eew-0g-h6G" id="LcP-tA-4P6"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1729" y="410"/>
+            <point key="canvasLocation" x="1827" y="410"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5Ud-SO-dO5">
